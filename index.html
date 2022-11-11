@@ -2,10 +2,14 @@
 <html>
     <head>
         <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
         <title>My Carousel</title>
+        <script src="https://kit.fontawesome.com/d18fadeb18.js" crossorigin="anonymous"></script>
     </head>
     <body>
         <div class="carousel-container">
+                <i class="fas fa-arrow-left" id="prevBtn"></i>
+                <i class="fas fa-arrow-right" id="nextBtn"></i>
             <div class="carousel-slide">
                 <img src="img/6.jpg" width="100%" id='lastClone' alt="">
                 <img src="img/1.jpg"  width="100%" alt="">
@@ -17,8 +21,7 @@
                 <img src="img/1.jpg" width="100%" id='firstClone' alt="">
             </div>
         </div>
-        <button id="prevBtn">prev</button>
-        <button id="nextBtn">next</button>
+       
 
         <script src="script.js"></script>
     </body>
